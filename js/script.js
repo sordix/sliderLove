@@ -33,12 +33,7 @@ var swiper = new Swiper(".slide-container", {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-  // Obter o elemento de áudio
-  var audioPlayer = document.getElementById("audioPlayer");
-
-  // Verificar se o navegador suporta a tag de áudio e a reprodução automática
-  if (audioPlayer && audioPlayer.canPlayType && audioPlayer.play) {
-    // Tocar a música automaticamente (pode não funcionar em todos os navegadores)
-    audioPlayer.play();
-  }
+    var audio = document.getElementById("myAudio");
+    audio.autoplay = true;
+    audio.style.display = "none";
 });
