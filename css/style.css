@@ -94,18 +94,5 @@ audio {
     z-index: 9999 !important;
     left: 825px !important;
     top: 95px !important;
-    }
 }
-@media only screen 
-    and (device-width : 414px) 
-    and (device-height : 896px) 
-    and (-webkit-device-pixel-ratio : 2) {
-      audio {
-        position: absolute !important;
-        top: 0 !important;
-        left: 0 !important;
-        z-index: 9999 !important;
-        left: 55px !important;
-        top: 60px !important;
-      }
-     }
+  }
